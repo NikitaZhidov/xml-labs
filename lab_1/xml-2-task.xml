@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootElem xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance"
+  xsd:noNamespaceSchemaLocation="./xsd-2-task.xsd">
+  <quiz name="XML">
+    <question>
+      <question-text>Что означает аббревиатура XML?</question-text>
+
+      <answer-options>
+        <answer-option>Extensible Markup Language</answer-option>
+        <answer-option>Extraordinary Markup Language</answer-option>
+        <answer-option>Extended Markup Language</answer-option>
+      </answer-options>
+
+      <correct-answer>1</correct-answer>
+    </question>
+
+    <question>
+      <question-text>Какие из перечисленных символов должны быть экранированы в XML?</question-text>
+
+      <answer-options>
+        <answer-option>&lt; и &gt;</answer-option>
+        <answer-option>&amp; и &quot;</answer-option>
+        <answer-option>/ и -</answer-option>
+      </answer-options>
+
+      <correct-answer>3</correct-answer>
+    </question>
+
+    <question>
+      <question-text>Какой компонент XML определяет структуру документа?</question-text>
+
+      <answer-options>
+        <answer-option>Элементы (tags)</answer-option>
+        <answer-option>Атрибуты (attributes)</answer-option>
+        <answer-option>DTD (Document Type Definition)</answer-option>
+      </answer-options>
+
+      <correct-answer>
+        3</correct-answer>
+    </question>
+
+    <question>
+      <question-text>Какой тип данных можно хранить в атрибутах XML?</question-text>
+
+      <answer-options>
+        <answer-option>Только текст</answer-option>
+        <answer-option>Числа и даты</answer-option>
+        <answer-option>Изображения и аудиофайлы</answer-option>
+      </answer-options>
+
+      <correct-answer>
+        1</correct-answer>
+    </question>
+
+    <question>
+      <question-text>Какой из следующих XML-документов является валидным?</question-text>
+
+      <answer-options>
+        <answer-option>&lt;book&gt;&lt;title&gt;My Book&lt;/title&gt;&lt;/book&gt;</answer-option>
+        <answer-option>&lt;book&gt;&lt;title&gt;My Book&lt;/book&gt;&lt;/title&gt;</answer-option>
+        <answer-option>&lt;book&gt;&lt;title&gt;&lt;/title&gt;&lt;/book&gt;</answer-option>
+      </answer-options>
+
+      <correct-answer>
+        1</correct-answer>
+    </question>
+  </quiz>
+
+  <quiz name="DTD">
+    <question>
+      <question-text>Какие типы данных могут быть описаны с помощью DTD?</question-text>
+      <answer-options>
+        <answer-option>Только текстовые данные</answer-option>
+        <answer-option>Текстовые данные и числа</answer-option>
+        <answer-option>Любые данные</answer-option>
+      </answer-options>
+      <correct-answer>2</correct-answer>
+    </question>
+
+    <question>
+      <question-text>Что означает атрибут #REQUIRED в DTD?</question-text>
+      <answer-options>
+        <answer-option>Атрибут обязателен</answer-option>
+        <answer-option>Атрибут необязателен</answer-option>
+        <answer-option>Атрибут имеет значение по умолчанию</answer-option>
+      </answer-options>
+      <correct-answer>
+        1</correct-answer>
+    </question>
+
+    <question>
+      <question-text>Какой элемент в DTD используется для определения атрибутов?</question-text>
+      <answer-options>
+        <answer-option>ATTLIST</answer-option>
+        <answer-option>ELEMENT</answer-option>
+        <answer-option>ENTITY</answer-option>
+      </answer-options>
+      <correct-answer>1</correct-answer>
+    </question>
+
+    <question>
+      <question-text>Какие основные роли выполняет DTD в XML-документе?</question-text>
+      <answer-options>
+        <answer-option>Определение структуры, описания типов данных и проверка валидности</answer-option>
+        <answer-option>Создание графического интерфейса</answer-option>
+        <answer-option>Хранение данных</answer-option>
+      </answer-options>
+      <correct-answer>1</correct-answer>
+    </question>
+
+    <question>
+      <question-text>Что означает CDATA в DTD?</question-text>
+      <answer-options>
+        <answer-option>Character Data</answer-option>
+        <answer-option>Conditional Data</answer-option>
+        <answer-option>Content Data</answer-option>
+      </answer-options>
+      <correct-answer>1</correct-answer>
+    </question>
+  </quiz>
+</rootElem>

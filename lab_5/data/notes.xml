@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<notes xmlns:xlink="http://www.w3.org/1999/xlink">
+  <note>
+    <date>2023-10-04</date>
+    <author>Author</author>
+    <content>Note</content>
+    <reference xlink:type="simple" xlink:href="XML">Quiz reference</reference>
+    <reference_title xlink:type="simple"
+      xlink:href="./xml-2-task.xml#xpointer(//quiz[@name='XML']/quiz-title)">Quiz title reference</reference_title>
+  </note>
+  <note>
+    <date>2023-10-04</date>
+    <author>Author DTD </author>
+    <content>NOTE</content>
+    <reference xlink:type="simple" xlink:href="DTD">Quiz reference</reference>
+    <reference_title xlink:type="simple"
+      xlink:href="./xml-2-task.xml#xpointer(//quiz[@name='DTD']/quiz-title)">Quiz title reference</reference_title>
+  </note>
+  <note>
+    <date>2023-10-04</date>
+    <author>Author DTD </author>
+    <content>NOTE</content>
+    <reference xlink:type="simple" xlink:href="DTD">Quiz reference</reference>
+    <reference_title xlink:type="simple"
+      xlink:href="./xml-2-task.xml#xpointer(//quiz[@name='DTD']/quiz-title)">Quiz title reference</reference_title>
+  </note>
+  <note>
+    <date>2023-10-05</date>
+    <author>Author X</author>
+    <content>Note X</content>
+    <reference xlink:type="simple" xlink:href="XPath, XLink, XPointer">Quiz reference</reference>
+    <reference_title xlink:type="simple"
+      xlink:href="./xml-2-task.xml#xpointer(//quiz[@name='XPath, XLink, XPointer']/quiz-title)">Quiz
+      title reference</reference_title>
+  </note>
+  <note>
+    <date>2023-10-05</date>
+    <author>Author</author>
+    <content>note</content>
+    <reference xlink:type="simple" xlink:href="XML">Quiz reference</reference>
+    <reference_title xlink:type="simple"
+      xlink:href="./xml-2-task.xml#xpointer(//quiz[@name='XML']/quiz-title)">Quiz title reference</reference_title>
+  </note>
+</notes>

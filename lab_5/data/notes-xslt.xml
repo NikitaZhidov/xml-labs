@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<xsl:stylesheet version="1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <xsl:template match="notes">
+    <body>
+      <h1>Примечания</h1>
+      <xsl:apply-templates select="note"/>
+    </body>
+  </xsl:template>
+
+  <xsl:template match="note">
+    <div style="margin: 15px 0; padding: 5px; border: 1px solid black; max-width: 550px;">
+      <div>
+        Примечание <xsl:value-of select="position()"/>)
+      </div>
+
+      <div>
+        Дата: <b><xsl:value-of select="date"/></b> |
+        Автор: <b><xsl:value-of select="author"/></b> |
+        Содержание: <b><xsl:value-of select="content"/></b> |
+        Тема: <b>
+          <xsl:value-of select="reference/@xlink:href"/>
+        </b>
+      </div>
+    </div>
+  </xsl:template>
+</xsl:stylesheet>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<result>
+  <quiz name="XML">
+    <correct-answer>1</correct-answer>
+    <user-answer>1</user-answer>
+  </quiz>
+  <quiz name="DTD">
+    <correct-answer>2</correct-answer>
+    <user-answer>2</user-answer>
+  </quiz>
+  <quiz name="XPath_XLink_XPointer">
+    <correct-answer>2</correct-answer>
+    <user-answer>2</user-answer>
+  </quiz>
+  <quiz name="XQuery">
+    <correct-answer>1</correct-answer>
+    <user-answer>1</user-answer>
+  </quiz>
+  <quiz name="XSL">
+    <correct-answer>2</correct-answer>
+    <user-answer>2</user-answer>
+  </quiz>
+</result>

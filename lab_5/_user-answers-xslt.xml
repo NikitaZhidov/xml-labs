@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<xsl:stylesheet version="1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+  <xsl:template match="result">
+    <body>
+      <h1>Результат опроса</h1>
+
+      <xsl:apply-templates select="quiz"/>
+    </body>
+  </xsl:template>
+
+  <xsl:template match="quiz">
+    <div style="margin: 25px 0;">
+      <h2>Тема <xsl:value-of select="./@name"/></h2>
+
+      <div>Ответ пользователя: <xsl:value-of select="user-answer"/></div>
+      <div>Правильный ответ: <b><xsl:value-of select="correct-answer"/></b></div>
+
+      <xsl:choose>
+        <xsl:when test="user-answer = correct-answer">
+          <div style="color: green;">Правильно</div>
+        </xsl:when>
+
+        <xsl:otherwise>
+          <div style="color: red;">Неправильно</div>
+        </xsl:otherwise>
+      </xsl:choose>
+    </div>
+  </xsl:template>
+</xsl:stylesheet>

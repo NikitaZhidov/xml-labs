@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<xsl:stylesheet version="1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+  <xsl:template match="rootElem">
+    <html>
+      <head>
+        <title>Опросник</title>
+      </head>
+      <body>
+        <form action="/index3.php" method="post">
+          <xsl:apply-templates select="quiz"/>
+
+          <button style="margin-top: 40px;" type="submit">Сохранить</button>
+        </form>
+      </body>
+    </html>
+  </xsl:template>
+
+  <xsl:template match="quiz">
+    <h2>
+      <xsl:value-of select="@name"/>
+    </h2>
+
+    <xsl:apply-templates select="question[1]"/>
+  </xsl:template>
+
+  <xsl:template match="question">
+    <div>
+      <p>
+        <xsl:value-of select="question-text"/>
+      </p>
+
+      <xsl:for-each select="answer-options/answer-option">
+        <input type="radio"
+               name="{../../../@name}"
+               value="{position()}" />
+        <xsl:value-of select="."/>
+        <br/>
+      </xsl:for-each>
+    </div>
+  </xsl:template>
+</xsl:stylesheet>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<quiz-answers>
+  <quiz name="XML">
+    <correct-answer>1</correct-answer>
+  </quiz>
+  <quiz name="DTD">
+    <correct-answer>2</correct-answer>
+  </quiz>
+  <quiz name="XPath_XLink_XPointer">
+    <correct-answer>2</correct-answer>
+  </quiz>
+  <quiz name="XQuery">
+    <correct-answer>1</correct-answer>
+  </quiz>
+  <quiz name="XSL">
+    <correct-answer>2</correct-answer>
+  </quiz>
+</quiz-answers>

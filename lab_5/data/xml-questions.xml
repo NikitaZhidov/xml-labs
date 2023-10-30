@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootElem>
+  <quiz name="XML">
+    <quiz-title>XML quiz</quiz-title>
+
+    <question>
+      <question-text>Что означает аббревиатура XML?</question-text>
+
+      <answer-options>
+        <answer-option>Extensible Markup Language</answer-option>
+        <answer-option>Extraordinary Markup Language</answer-option>
+        <answer-option>Extended Markup Language</answer-option>
+      </answer-options>
+
+      <correct-answer>1</correct-answer>
+    </question>
+
+    <question>
+      <question-text>Какие из перечисленных символов должны быть экранированы в XML?</question-text>
+
+      <answer-options>
+        <answer-option>&lt; и &gt;</answer-option>
+        <answer-option>&amp; и &quot;</answer-option>
+        <answer-option>/ и -</answer-option>
+      </answer-options>
+
+      <correct-answer>3</correct-answer>
+    </question>
+
+    <question>
+      <question-text>Какой компонент XML определяет структуру документа?</question-text>
+
+      <answer-options>
+        <answer-option>Элементы (tags)</answer-option>
+        <answer-option>Атрибуты (attributes)</answer-option>
+        <answer-option>DTD (Document Type Definition)</answer-option>
+      </answer-options>
+
+      <correct-answer>
+        3</correct-answer>
+    </question>
+
+    <question>
+      <question-text>Какой тип данных можно хранить в атрибутах XML?</question-text>
+
+      <answer-options>
+        <answer-option>Только текст</answer-option>
+        <answer-option>Числа и даты</answer-option>
+        <answer-option>Изображения и аудиофайлы</answer-option>
+      </answer-options>
+
+      <correct-answer>
+        1</correct-answer>
+    </question>
+
+    <question>
+      <question-text>Какой из следующих XML-документов является валидным?</question-text>
+
+      <answer-options>
+        <answer-option>&lt;book&gt;&lt;title&gt;My Book&lt;/title&gt;&lt;/book&gt;</answer-option>
+        <answer-option>&lt;book&gt;&lt;title&gt;My Book&lt;/book&gt;&lt;/title&gt;</answer-option>
+        <answer-option>&lt;book&gt;&lt;title&gt;&lt;/title&gt;&lt;/book&gt;</answer-option>
+      </answer-options>
+
+      <correct-answer>
+        1</correct-answer>
+    </question>
+  </quiz>
+
+  <quiz name="DTD">
+    <quiz-title>DTD quiz</quiz-title>
+
+    <question>
+      <question-text>Какие типы данных могут быть описаны с помощью DTD?</question-text>
+      <answer-options>
+        <answer-option>Только текстовые данные</answer-option>
+        <answer-option>Текстовые данные и числа</answer-option>
+        <answer-option>Любые данные</answer-option>
+      </answer-options>
+      <correct-answer>2</correct-answer>
+    </question>
+
+    <question>
+      <question-text>Что означает атрибут #REQUIRED в DTD?</question-text>
+      <answer-options>
+        <answer-option>Атрибут обязателен</answer-option>
+        <answer-option>Атрибут необязателен</answer-option>
+        <answer-option>Атрибут имеет значение по умолчанию</answer-option>
+      </answer-options>
+      <correct-answer>
+        1</correct-answer>
+    </question>
+
+    <question>
+      <question-text>Какой элемент в DTD используется для определения атрибутов?</question-text>
+      <answer-options>
+        <answer-option>ATTLIST</answer-option>
+        <answer-option>ELEMENT</answer-option>
+        <answer-option>ENTITY</answer-option>
+      </answer-options>
+      <correct-answer>1</correct-answer>
+    </question>
+
+    <question>
+      <question-text>Какие основные роли выполняет DTD в XML-документе?</question-text>
+      <answer-options>
+        <answer-option>Определение структуры, описания типов данных и проверка валидности</answer-option>
+        <answer-option>Создание графического интерфейса</answer-option>
+        <answer-option>Хранение данных</answer-option>
+      </answer-options>
+      <correct-answer>1</correct-answer>
+    </question>
+
+    <question>
+      <question-text>Что означает CDATA в DTD?</question-text>
+      <answer-options>
+        <answer-option>Character Data</answer-option>
+        <answer-option>Conditional Data</answer-option>
+        <answer-option>Content Data</answer-option>
+      </answer-options>
+      <correct-answer>1</correct-answer>
+    </question>
+  </quiz>
+
+  <quiz name="XPath_XLink_XPointer">
+    <quiz-title>XPath, XLink, XPointer</quiz-title>
+
+    <question>
+      <question-text>Что представляет собой XLink в XML?</question-text>
+      <answer-options>
+        <answer-option>Это язык запросов для XML-документов.</answer-option>
+        <answer-option>Это спецификация для создания гиперссылок в XML-документах.</answer-option>
+        <answer-option>Это формат для хранения изображений в XML.</answer-option>
+      </answer-options>
+      <correct-answer>2</correct-answer>
+    </question>
+
+    <question>
+      <question-text>Какой элемент XML используется для создания ссылок с использованием XLink?</question-text>
+      <answer-options>
+        <answer-option>&lt;a&gt;</answer-option>
+        <answer-option>&lt;link&gt;</answer-option>
+        <answer-option>&lt;href&gt;</answer-option>
+      </answer-options>
+      <correct-answer>1</correct-answer>
+    </question>
+
+    <question>
+      <question-text>Для чего используется XPath в XML?</question-text>
+      <answer-options>
+        <answer-option>Для создания ссылок в XML-документах.</answer-option>
+        <answer-option>Для поиска и навигации по элементам и атрибутам XML-документов.</answer-option>
+        <answer-option>Для задания стилей для XML-элементов.</answer-option>
+      </answer-options>
+      <correct-answer>2</correct-answer>
+    </question>
+
+
+    <question>
+      <question-text>Что означает аббревиатура XPointer в XML?</question-text>
+      <answer-options>
+        <answer-option>XML Pointer</answer-option>
+        <answer-option>XPath Pointer</answer-option>
+        <answer-option>Extended Pointer</answer-option>
+      </answer-options>
+      <correct-answer>2</correct-answer>
+    </question>
+
+    <question>
+      <question-text>Каким образом XPointer может использоваться в XML?</question-text>
+      <answer-options>
+        <answer-option>Для определения структуры XML-документа.</answer-option>
+        <answer-option>Для указания точных позиций в XML-документе, включая фрагменты и атрибуты.</answer-option>
+        <answer-option>Для создания гиперссылок в XML-документах.</answer-option>
+      </answer-options>
+      <correct-answer>2</correct-answer>
+    </question>
+  </quiz>
+
+  <quiz name="XQuery">
+    <quiz-title>XQuery quiz</quiz-title>
+
+    <question>
+      <question-text>Что представляет собой XQuery в контексте XML?</question-text>
+      <answer-options>
+        <answer-option>Язык запросов для поиска и обработки XML-данных.</answer-option>
+        <answer-option>Маркировочный язык для разметки XML-документов.</answer-option>
+        <answer-option>Язык программирования для создания веб-серверов.</answer-option>
+        <answer-option>Систему управления базами данных.</answer-option>
+        <answer-option>Модель данных для хранения текстовых данных.</answer-option>
+      </answer-options>
+      <correct-answer>1</correct-answer>
+    </question>
+
+    <question>
+      <question-text>Какие операции можно выполнять с помощью XQuery?</question-text>
+      <answer-options>
+        <answer-option>Поиск, фильтрация и преобразование XML-данных.</answer-option>
+        <answer-option>Создание анимаций и графики в XML-формате.</answer-option>
+        <answer-option>Создание стилей для XML-документов.</answer-option>
+        <answer-option>Публикация документов в социальных сетях.</answer-option>
+        <answer-option>Создание веб-сайтов.</answer-option>
+      </answer-options>
+      <correct-answer>1</correct-answer>
+    </question>
+
+
+    <question>
+      <question-text>Какие операции можно выполнять с помощью XQuery?</question-text>
+      <answer-options>
+        <answer-option>Поиск, фильтрация и преобразование XML-данных.</answer-option>
+        <answer-option>Создание анимаций и графики в XML-формате.</answer-option>
+        <answer-option>Создание стилей для XML-документов.</answer-option>
+        <answer-option>Публикация документов в социальных сетях.</answer-option>
+        <answer-option>Создание веб-сайтов.</answer-option>
+      </answer-options>
+      <correct-answer>1</correct-answer>
+    </question>
+
+    <question>
+      <question-text>Какие типы данных поддерживает XQuery?</question-text>
+      <answer-options>
+        <answer-option>Числа, строки, булевы значения и даты.</answer-option>
+        <answer-option>Только числа и строки.</answer-option>
+        <answer-option>Только булевы значения и даты.</answer-option>
+        <answer-option>Только булевы значения и числа.</answer-option>
+        <answer-option>Все перечисленные варианты.</answer-option>
+      </answer-options>
+      <correct-answer>1</correct-answer>
+    </question>
+
+    <question>
+      <question-text>Какие функции могут быть использованы в XQuery?</question-text>
+      <answer-options>
+        <answer-option>Функции для работы с датами и временем, математические функции, функции для
+          работы с строками и многие другие.</answer-option>
+        <answer-option>Только математические функции.</answer-option>
+        <answer-option>Только функции для работы с строками.</answer-option>
+        <answer-option>Функции для работы с графикой и анимацией.</answer-option>
+        <answer-option>Только функции для работы с XML-структурами.</answer-option>
+      </answer-options>
+      <correct-answer>1</correct-answer>
+    </question>
+
+    <question>
+      <question-text>Какие возможности предоставляет XQuery для фильтрации данных?</question-text>
+      <answer-options>
+        <answer-option>Только сортировка</answer-option>
+        <answer-option>Только поиск по ключевым словам</answer-option>
+        <answer-option>Сортировка, фильтрация по условиям и объединение данных</answer-option>
+        <answer-option>Только агрегирование данных</answer-option>
+        <answer-option>Только поиск по регулярным выражениям</answer-option>
+      </answer-options>
+      <correct-answer>3</correct-answer>
+    </question>
+  </quiz>
+
+  <quiz name="XSL">
+    <quiz-title>XSL quiz</quiz-title>
+
+    <question>
+      <question-text>Что представляет собой XSL в контексте XML?</question-text>
+      <answer-options>
+        <answer-option>Язык запросов для поиска и обработки XML-данных.</answer-option>
+        <answer-option>Язык для описания структуры и преобразования XML-документов.</answer-option>
+        <answer-option>Язык программирования для создания веб-серверов.</answer-option>
+        <answer-option>Систему управления базами данных.</answer-option>
+        <answer-option>Язык для создания стилей и форматирования XML-документов.</answer-option>
+      </answer-options>
+      <correct-answer>2</correct-answer>
+    </question>
+
+    <question>
+      <question-text>Какой инструмент обычно используется для преобразования XML с использованием
+        XSLT?</question-text>
+      <answer-options>
+        <answer-option>XML Parser</answer-option>
+        <answer-option>XML Editor</answer-option>
+        <answer-option>XSL Transformer</answer-option>
+        <answer-option>XPath Query Engine</answer-option>
+        <answer-option>XML Generator</answer-option>
+      </answer-options>
+      <correct-answer>3</correct-answer>
+    </question>
+
+    <question>
+      <question-text>Какие основные задачи можно решать с помощью XSLT?</question-text>
+      <answer-options>
+        <answer-option>Преобразование и форматирование XML-данных.</answer-option>
+        <answer-option>Создание графического интерфейса для XML-приложений.</answer-option>
+        <answer-option>Выполнение SQL-запросов к базам данных.</answer-option>
+        <answer-option>Создание XML-схем и DTD для валидации XML-документов.</answer-option>
+        <answer-option>Работа с многомерными массивами в XML.</answer-option>
+      </answer-options>
+      <correct-answer>1</correct-answer>
+    </question>
+
+    <question>
+      <question-text>Какие типы выходных форматов могут быть сгенерированы с помощью XSLT?</question-text>
+      <answer-options>
+        <answer-option>Только HTML.</answer-option>
+        <answer-option>Только JSON.</answer-option>
+        <answer-option>HTML, XML, Text, JSON и другие.</answer-option>
+        <answer-option>Только XML.</answer-option>
+        <answer-option>Только PDF.</answer-option>
+      </answer-options>
+      <correct-answer>3</correct-answer>
+    </question>
+
+    <question>
+      <question-text>Какие инструменты или языки связаны с XSLT для преобразования и обработки
+        XML-данных?</question-text>
+      <answer-options>
+        <answer-option>XPath, XQuery, XPointer.</answer-option>
+        <answer-option>HTML, CSS, JavaScript.</answer-option>
+        <answer-option>Java, C#, Python.</answer-option>
+        <answer-option>SQL, NoSQL, MongoDB.</answer-option>
+        <answer-option>JSON, YAML, CSV.</answer-option>
+      </answer-options>
+      <correct-answer>1</correct-answer>
+    </question>
+  </quiz>
+</rootElem>

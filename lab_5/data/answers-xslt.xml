@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<xsl:stylesheet version="1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+  <xsl:template match="rootElem">
+    <quiz-answers>
+      <xsl:apply-templates select="quiz"/>
+    </quiz-answers>
+  </xsl:template>
+
+  <xsl:template match="quiz">
+    <quiz name="{@name}">
+      <correct-answer>
+        <xsl:apply-templates select="question[1]"/>
+      </correct-answer>
+    </quiz>
+  </xsl:template>
+
+  <xsl:template match="question">
+    <xsl:value-of select="correct-answer"/>
+  </xsl:template>
+</xsl:stylesheet>

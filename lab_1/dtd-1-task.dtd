@@ -1,0 +1,16 @@
+<!ELEMENT rootElem ANY>
+
+<!ELEMENT quiz (question+)>
+
+<!ATTLIST rootElem
+  xmlns:xsd CDATA #IMPLIED
+  xsd:noNamespaceSchemaLocation CDATA #IMPLIED>
+
+<!ATTLIST quiz
+  name CDATA #REQUIRED>
+
+<!ELEMENT question (question-text, answer-options, correct-answer)>
+<!ELEMENT question-text (#PCDATA)>
+<!ELEMENT answer-options (answer-option+)>
+<!ELEMENT answer-option (#PCDATA)>
+<!ELEMENT correct-answer (#PCDATA)>
